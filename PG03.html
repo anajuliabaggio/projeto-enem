@@ -225,7 +225,7 @@
 
                 <button onclick="next()" type="submit" class="btn-submit">Agendar reunião</button>
                 
-                <p class="footer-text">Não envie senhas por este formulário. Relatar abuso.</p>
+                <p class="footer-text">Não envie senhas por este formulário.</p><p onclick="relatar()">Relatar abuso.</p>
             </form>
         </div>
 
@@ -235,7 +235,12 @@
 
 <script>
     function next(){
-        
+        window.location.href = "PG04.html"
+    }
+
+    function relatar(){
+        window.location.href = "relatar abuso"
+
     }
 </script>
 
