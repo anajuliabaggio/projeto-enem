@@ -235,7 +235,7 @@
         </div>
         <div class="botoes">
             <button class="btn-enviar" id="botao-enviar">enviar</button>
-            <button class="btn-enviar" id="botao-enviar">></button>
+            <button onclick="next()" class="btn-enviar" id="botao-enviar">></button>
         </div>
     </footer>
 
@@ -304,6 +304,10 @@
             if (confirm('Deseja limpar o histórico de mensagens?')) {
                 chatBox.innerHTML = '';
             }
+        }
+
+        function next(){
+            window.location.href = "PG05.html"
         }
     </script>
 
